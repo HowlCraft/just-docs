@@ -24,4 +24,4 @@ layout: home
 [^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[chapitre 10](https://HowlCraft.github.io/just-docs/docs/c10-methodes/)
+[chapitre 10](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
