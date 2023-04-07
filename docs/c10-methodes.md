@@ -1,4 +1,4 @@
-# Methodes : la colinéarité
+# Methodes : la colinéarité 
 
 ## Calculer le déterminant de deux vecteurs.
 ::: success
