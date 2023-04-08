@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Customization
+title: 10. Colinéarité
 nav_order: 2
 ---
 
