@@ -18,14 +18,13 @@ nav_order: 2
 # Methodes : la colinéarité 
 
 ## Calculer le déterminant de deux vecteurs.
-::: success
-**Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\begin{pmatrix}x \\ y \end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
-:::
 
-:::info
-Exemple : Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
+> **Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\begin{pmatrix}x \\ y \end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
 
-:::
+
+> **Exemple**
+> Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
+
 
 **Exercice.**
 Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suivants : 
@@ -34,7 +33,7 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
 - $\vec{u}\begin{pmatrix}0,5 \\ 4 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}-1 \\ -8 \end{pmatrix}$
 
 <details>
-  <summary markdown="span">Solutions (clique ici)</summary>
+  <summary markdown="span">Solutions</summary>
 
 - Cas 1 : $det(\vec{u},\vec{v}) = 3\times 2 - 1\times (-6) = 12$
 - Cas 2 : $det(\vec{u},\vec{v}) = (-1)\times (-1) - (-3)\times 2 = 7$
@@ -42,16 +41,16 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
 </details>
 
 
-:::info
-Rappel : si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
+> **Info**
+> Rappel : si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
 "point d'arrivé moins point de départ"
-:::
+
 
 **Exercice.**
 Soient $A(7;-2)$, $B(1;2)$, $C(6;3)$, et $D(5;0)$ des points. Calculer le déterminant de $\vec{AB}$ et $\vec{CD}$.
 
 <details>
-  <summary markdown="span">Solutions (clique ici)</summary>
+  <summary markdown="span">Solutions</summary>
     
 **Etape 1.** 
     On calcule les coordonnées des vecteurs : 
