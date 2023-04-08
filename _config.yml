@@ -9,3 +9,13 @@ aux_links:
   
 math: mathjax
 
+
+callouts:
+  note:
+    title: Remarque
+    color: pink
+    opacity: 0.3
+  warning:
+    title: Attention
+    color: red
+
