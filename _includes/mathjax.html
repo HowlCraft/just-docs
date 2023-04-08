@@ -6,17 +6,14 @@
 
 <script>
 MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  },
+  tex: {inlineMath: [['$', '$'], ['\\(', '\\)']],
+       packages: {'[+]': ['ams']},
+        
   svg: {
     fontCache: 'global'
   },
   loader: 
     {load: ['[tex]/ams']
-  },
-  tex: 
-    {packages: {'[+]': ['ams']}
   }
 };
 </script>
