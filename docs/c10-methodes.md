@@ -19,11 +19,12 @@ nav_order: 2
 
 ## Calculer le déterminant de deux vecteurs.
 
-> **Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
+{: .note }
+**Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
 
 
-> **Exemple**
-> Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
+{: .warning }
+Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
 
 
 **Exercice.**
