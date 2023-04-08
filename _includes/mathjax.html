@@ -3,6 +3,16 @@
   src="/just-the-docs-tests/assets/js/mathjax-script-type.js">
 </script>
 
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
 
 <script>
 MathJax = {
@@ -10,14 +20,17 @@ MathJax = {
     load: ['[tex]/ams']
   },
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']],
-    packages: {'[+]': ['ams']
-  },  
-  svg: {
-    fontCache: 'global'
+    packages: {'[+]': 'ams'},
+    autoload: {color: []}
   }
 };
 </script>
+
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-chtml.js">
+</script>
+
+
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
