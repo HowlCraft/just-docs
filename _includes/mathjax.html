@@ -11,6 +11,12 @@ MathJax = {
   },
   svg: {
     fontCache: 'global'
+  },
+  loader: 
+    {load: ['[tex]/ams']
+  },
+  tex: 
+    {packages: {'[+]': ['ams']}
   }
 };
 </script>
@@ -18,3 +24,7 @@ MathJax = {
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
 </script>
 
+window.MathJax = {
+  loader: {load: ['[tex]/ams']},
+  tex: {packages: {'[+]': ['ams']}}
+};
