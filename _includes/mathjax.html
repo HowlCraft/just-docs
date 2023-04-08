@@ -5,23 +5,15 @@
 
 <script>
 MathJax = {
-  tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
-  },
-  svg: {
-    fontCache: 'global'
-  }
-};
-</script>
-
-<script>
-MathJax = {
   loader: {
     load: ['[tex]/ams']
   },
   tex: {
     packages: {'[+]': 'ams'},
-    autoload: {color: []}
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  },
+  svg: {
+    fontCache: 'global'
   }
 };
 </script>
