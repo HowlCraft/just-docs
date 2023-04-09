@@ -6,7 +6,7 @@ layout: home
 
 ## En ce moment...
 
-Voir le [chapitre sur la colinéarité](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
+Voir le [chapitre sur la colinéarité](https://howlcraft.github.io/just-docs/docs/c10.html)
 
 ## Au programme du prochain DS
 
