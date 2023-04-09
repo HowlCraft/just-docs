@@ -24,7 +24,7 @@ Les applications se retrouvent en géométrie : vérifier l'alignement de trois 
 
 ### Documents
 
-- [Cours](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
-- [Méthodes](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
-- [Exercices](https://howlcraft.github.io/just-docs/docs/c10-exercices.pdf)
-- [DM](https://howlcraft.github.io/just-docs/docs/c10-dm.pdf)
+- [Cours](https://howlcraft.github.io/just-docs/docs/c10/c10-methodes.html)
+- [Méthodes](https://howlcraft.github.io/just-docs/docs/c10/c10-methodes.html)
+- [Exercices](https://howlcraft.github.io/just-docs/docs/c10/c10-exercices.pdf)
+- [DM](https://howlcraft.github.io/just-docs/docs/c10/c10-dm.pdf)
