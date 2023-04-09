@@ -6,7 +6,7 @@ layout: home
 
 ## En ce moment...
 
-Voir le [chapitre sur la colinéarité](https://howlcraft.github.io/just-docs/docs/c10.html)
+Voir le [chapitre sur la colinéarité](https://howlcraft.github.io/just-docs/docs/c10.html) pour le DM à rendre.
 
 ## Au programme du prochain DS
 
