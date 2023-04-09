@@ -12,11 +12,11 @@ math: mathjax
 color_scheme: dawn
 
 callouts:
-  note:
-    title: Remarque
+  methode:
+    title: Methode
     color: rose-moon
     opacity: 0.4
-  note:
+  exemple:
     title: Exemple
     color: rose-moon
     opacity: 0.4
