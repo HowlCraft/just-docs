@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 10. Colinéarité
-nav_order: 2
+title: 10 - La Colinéarité
+nav_order: 1
 has_children: true
 ---
 
