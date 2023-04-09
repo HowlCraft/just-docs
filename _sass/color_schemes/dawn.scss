@@ -20,8 +20,8 @@ $sidebar-color: $overlay;
 $base-button-color: $pine;
 $btn-primary-color: $gold ;
 $code-background-color: $muted ;
-$feedback-color: $rose;
 $table-background-color: $surface ;
 $search-background-color: $surface;
 $search-result-preview-color: $text;
-
+$feedback-color: darken($sidebar-color, 3%);
+$table-background-color: $muted;
