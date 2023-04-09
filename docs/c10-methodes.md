@@ -3,8 +3,15 @@ layout: default
 title: Méthodes colinéarité
 ---
 
-## Contenu
+<details markdown="block">
+  <summary>
+    Contenu
+  </summary>
+  {: .text-delta }
+1. TOC
 {:toc}
+</details>
+
 
 ---
 
