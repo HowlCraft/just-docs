@@ -171,7 +171,7 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 > On calcule le déterminant : $det(\vec{u};\vec{v})=x\times (-2) -3\times 5 = -2x - 15$
 > Or, les vecteurs sont colinéaires, donc leur déterminant est nul.
 >
-> On a donc : $-2x-15=0 \Longrightarrow -2x-12\color{red}{+15}=0\color{red} {+15} \Longrightarrow -2x = 15$
+> On a donc : $-2x-15=0 \Longrightarrow -2x-12 \color{red}{+15}=0 \color{red}{+15 }  \Longrightarrow -2x = 15$
 >
 > $\Longrightarrow \dfrac{-2x}{\color{red}{-2}} = \dfrac{15}{\color{red}{-2}} \Longrightarrow \boxed{x = \dfrac{15}{-2}}$
 
