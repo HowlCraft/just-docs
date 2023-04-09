@@ -92,8 +92,6 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
 
 
 {: .methode }
-> **Méthode.** 
-> 
 > On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
 > 
 > 1) On calculer les coordonnées des vecteurs $\vec{GH}$ et $\vec{DE}$.
@@ -174,7 +172,7 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 
 
 {: exemple }
-> Soient $\vec{u}\begin{pmatrix}x \\ 3 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}5 \\ -2 \end{pmatrix}$
+> Soient $\vec{u}\begin{pmatrix}x \\\\ 3 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}5 \\\\ -2 \end{pmatrix}$
 > -deux vecteurs colinéaires. Déterminer $x$.
 >
 > On calcule le déterminant : $det(\vec{u};\vec{v})=x\times (-2) -3\times 5 = -2x - 15$
