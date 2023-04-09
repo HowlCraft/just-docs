@@ -21,6 +21,6 @@ callouts:
     color: love-moon
     opacity: 0.4
   cours:
-    titre: Cours
+    title: Cours
     color: foam-moon
     opacity: 0.4
