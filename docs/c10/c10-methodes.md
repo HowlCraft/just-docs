@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Méthodes colinéarité
-parent: c10
+title: Méthodes
+parent: 10 - La Colinéarité
 nav_order: 1
 ---
 
