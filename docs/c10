@@ -1,0 +1,30 @@
+---
+layout: default
+title: 10. Colinéarité
+nav_order: 2
+---
+
+# Customization
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
+---
+
+# Chapitre 10. Colinéarité
+
+### En un mot.
+La colinéarité, c'est l'équivalent du parallélisme **pour les vecteurs** : deux vecteurs sont colinéaires s'ils ont la même direction. La colinéarité de deux vecteurs se vérifie à l'aide de leurs coordonnées (deux vecteurs sont colinéaires si et seulement si leurs coordonnées sont proportionnelles).
+Les applications se retrouvent en géométrie : vérifier l'alignement de trois points, calculer l'aire d'un parallélogramme, puis dans le chapitre 12. Equations de droites pour vérifier que deux droites sont parallèles.
+
+
+### Documents
+
+- [Cours](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
+- [Méthodes](https://howlcraft.github.io/just-docs/docs/c10-methodes.html)
+- [Exercices](https://howlcraft.github.io/just-docs/docs/c10-exercices.pdf)
+- [DM](https://howlcraft.github.io/just-docs/docs/c10-dm.pdf)
