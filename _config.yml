@@ -9,6 +9,7 @@ aux_links:
   
 math: mathjax
 
+color_scheme: dawn
 
 callouts:
   note:
