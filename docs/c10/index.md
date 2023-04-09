@@ -5,13 +5,6 @@ nav_order: 1
 has_children: true
 ---
 
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # Chapitre 10. Colinéarité
 
 ### En un mot.
@@ -28,4 +21,4 @@ Les applications se retrouvent en géométrie : vérifier l'alignement de trois 
 - [Cours](https://howlcraft.github.io/just-docs/docs/c10/c10-methodes.html)
 - [Méthodes](https://howlcraft.github.io/just-docs/docs/c10/c10-methodes.html)
 - [Exercices](https://howlcraft.github.io/just-docs/docs/c10/c10-exercices.pdf)
-- [DM](https://howlcraft.github.io/just-docs/docs/c10/c10-dm.pdf)
+- [DM](https://howlcraft.github.io/just-docs/docs/c10/c10-dlm.pdf)
