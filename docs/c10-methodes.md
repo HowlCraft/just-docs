@@ -19,11 +19,11 @@ nav_order: 2
 
 ## Calculer le déterminant de deux vecteurs.
 
-{: .note }
+{: .cours }
 **Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
 
 
-{: .warning }
+{: .attention }
 Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
 
 
@@ -42,8 +42,8 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
 </details>
 
 
-> **Info**
-> Rappel : si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
+{ .cours }
+Si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
 "point d'arrivé moins point de départ"
 
 
@@ -55,25 +55,24 @@ Soient $A(7;-2)$, $B(1;2)$, $C(6;3)$, et $D(5;0)$ des points. Calculer le déter
     
 **Etape 1.** 
     On calcule les coordonnées des vecteurs : 
-- $\vec{AB}\begin{pmatrix}1-7 \\ 2-(-2) \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}-6 \\ 4 \end{pmatrix}$
-- $\vec{CD}\begin{pmatrix}5-6 \\ 0-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-1 \\ -3 \end{pmatrix}$
+- $\vec{AB}\\begin{pmatrix}1-7 \\\\ 2-(-2) \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}-6 \\\\ 4 \\end{pmatrix}$
+- $\vec{CD}\\begin{pmatrix}5-6 \\\\ 0-3 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}-1 \\\\ -3 \\end{pmatrix}$
     
 **Etape 2.** On calcule le déterminant : 
     $det(\vec{AB};\vec{CD})=(-6)\times(-3) - (-1)\times 4 =  18+4=\boxed{22}$
 </details>
 
-:::danger
-**Rappel** Deux vecteurs non nuls sont **colinéaires** si et seulement si leur déterminant est nul (égal à $0$)
-:::
+{ .attention}
+Deux vecteurs non nuls sont **colinéaires** si et seulement si leur déterminant est nul (égal à $0$)
+
 
 ## Vérifier si deux vecteurs sont colinéaires.
 
-:::success
+{ .cours }
 **Méthode** On calcule le déterminant. S'il est égal à $0$, les vecteurs sont colinéaires. Sinon, les vecteurs ne sont pas colinéaires.
-:::
 
 **Exercice**
-Les vecteurs $\vec{u}\begin{pmatrix}-6 \\ 4 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}3 \\ -2 \end{pmatrix}$ sont-ils colinéaires ? Justifier.
+Les vecteurs $\vec{u}\\begin{pmatrix}-6 \\\\ 4 \\end{pmatrix}$ et $\vec{v}\\begin{pmatrix}3 \\\\ -2 \\end{pmatrix}$ sont-ils colinéaires ? Justifier.
 
 <details>
   <summary markdown="span">Solutions (clique ici)</summary>
@@ -88,12 +87,12 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
 ## Vérifier si deux droites sont parallèles.
 
 
-:::success
-**Méthode.** On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
-1) On calculer les coordonnées des vecteurs $\vec{GH}$ et $\vec{DE}$.
-2) On calcule le déterminant de $\vec{GH}$ et $\vec{DE}$.
-3) Si le déterminant est égal à $0$, les **vecteurs** sont colinéaires, et onc les **droites** sont parallèles. Sinon, les vecteurs ne sont pas colinéaires et les droites ne sont pas parallèles.
-:::
+{ .cours }
+> **Méthode.** On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
+> 1) On calculer les coordonnées des vecteurs $\vec{GH}$ et $\vec{DE}$.
+> 2) On calcule le déterminant de $\vec{GH}$ et $\vec{DE}$.
+> 3) Si le déterminant est égal à $0$, les **vecteurs** sont colinéaires, et onc les **droites** sont parallèles. Sinon, les vecteurs ne sont pas colinéaires et les droites ne sont pas parallèles.
+
 
 **Exercice.**
 ![](https://minio.apps.education.fr/codimd-prod/uploads/upload_1f703898d38b79638de0c0405eba46a0.png =500x)
@@ -104,33 +103,33 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
     
 **Question 1.** 
 Calculons les coordonnées des vecteurs $\vec{AB}$ et $\vec{CD}$ : 
-- $\vec{AB}\begin{pmatrix}1-(-3) \\ 3-2 \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}4 \\ 1 \end{pmatrix}$
-- $\vec{CD}\begin{pmatrix}0,5-(-2) \\ 4-0 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}2,5 \\ 4 \end{pmatrix}$
+- $\vec{AB}\\begin{pmatrix}1-(-3) \\\\ 3-2 \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}4 \\\\ 1 \\end{pmatrix}$
+- $\vec{CD}\\begin{pmatrix}0,5-(-2) \\\\ 4-0 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}2,5 \\\\ 4 \\end{pmatrix}$
 Calculons le déterminant : $det(\vec{AB},\vec{CD})=4\times 4 - 2,5\times 1=13,5\neq 0$.
 Donc les vecteurs $\vec{AB}$ et $\vec{CD}$ ne sont pas colinéaires, et les droites $(AB)$ et $(CD)$ ne sont pas parallèles.
 
 **Question 2.**
 Calculons les coordonnées des vecteurs $\vec{AC}$ et $\vec{BD}$ : 
-- $\vec{AB}\begin{pmatrix}-2-(-3) \\ 0-2 \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}1 \\ -2 \end{pmatrix}$
-- $\vec{CD}\begin{pmatrix}0,5-1 \\ 4-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-0,5 \\ 1 \end{pmatrix}$
+- $\vec{AB}\\begin{pmatrix}-2-(-3) \\\\ 0-2 \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}1 \\\\ -2 \\end{pmatrix}$
+- $\vec{CD}\\begin{pmatrix}0,5-1 \\\\ 4-3 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}-0,5 \\\\ 1 \\end{pmatrix}$
 Calculons le déterminant : $det(\vec{AC},\vec{BD})=1\times 1 - (-0,5)\times (-2)=1-1= 0$.
 Donc les vecteurs $\vec{AB}$ et $\vec{CD}$ sont colinéaires, et les droites $(AB)$ et $(CD)$ sont parallèles.
 </details>
 
 ## Vérifier si trois points sont alignés.
 
-:::success
-Soient trois points $M$, $N$, et $P$.
-Pour savoir s'ils sont alignés, on construit deux vecteurs à partir de ces points (*n'importe lesquels*), et on calcule le déterminant de ces vecteurs.
+{ .cours }
+>Soient trois points $M$, $N$, et $P$.
+>Pour savoir s'ils sont alignés, on construit deux vecteurs à partir de ces points (*n'importe lesquels*), et on calcule le déterminant de ces vecteurs.
 Si le déterminant est nul, les points sont alignés. Sinon, les points ne sont pas alignés.
-:::
 
-:::info
-**Exemple**
-Soient $A(3;1)$, $B(4; 5)$ et $C(7; 17)$.
-On choisit les vecteurs $\vec{AB}$ et $\vec{AC}$.
 
-$\vec{AB}\begin{pmatrix}1\\ 4 \end{pmatrix}$ et $\vec{AC}\begin{pmatrix}4 \\ 16 \end{pmatrix}$
+{ .note }
+> **Exemple**
+> Soient $A(3;1)$, $B(4; 5)$ et $C(7; 17)$.
+> On choisit les vecteurs $\vec{AB}$ et $\vec{AC}$.
+
+$\vec{AB}\\begin{pmatrix}1\\\\ 4 \\end{pmatrix}$ et $\vec{AC}\\begin{pmatrix}4 \\\\ 16 \\end{pmatrix}$
 
 Donc $det(\vec{AB},\vec{AC})=1\times 16 - 4\times 4 =0$.
 Les vecteurs sont colinéaires, donc les points sont alignés.
