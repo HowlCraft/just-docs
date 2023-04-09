@@ -69,6 +69,12 @@ De même, soit $h'$ la hauteur issur de $A$, et $H'$ son pied.
 - $ABH$ est un triangle rectangle en $H$, donc $\sin\beta=\dfrac{h'}{c}, d'où $h'=c\sin\beta$
 - $ACH$ est un triangle rectangle en $H$, donc $\sin\gamma=\dfrac{h'}{b}$, d'où $h'=b\sin\gamma$
 
-On en déduit que $c\sin\beta=b\sin\gamma$, d'où  $\boxed{\dfrac{a}{\sin \alpha}=\dfrac{c}{\sin\gamma}}$
+On en déduit que $c\sin\beta=b\sin\gamma$, d'où  $\boxed{\dfrac{b}{\sin \beta}=\dfrac{c}{\sin\gamma}}$
 
 ## La loi des sinus -méthode de l'aire
+
+Soit $h$ la hauteur issue de $C$, et $H$ son pied. L'aire de $ABC$ est donc $S=\dfrac{ch}{2}$.
+Or, $AHC$ étant un triangle rectangle, $\sin\alpha=\dfrac{h}{b}$, d'où $h=b\sin\alpha$.
+Donc $S=\dfrac{bc\sin\alpha}{2} \Longleftrightarrow 1=\dfrac{bc\sin\alpha}{2S} \Longleftrightarrow \dfrac{1}{\sin\alpha} = \dfrac{bc}{2S} \Longleftrightarrow \dfrac{a}{\sin\alpha}=\dfrac{abc}{2S}$
+
+De même, $\dfrac{c}{\sin\gamma}=\dfrac{abc}{2S}$ et $\dfrac{b}{\sin\beta}=\dfrac{abc}{2S}$
