@@ -11,10 +11,10 @@ Ici se trouvent deux théorèmes à démontrer. Les démonstrations sont guidée
 # La loi des sinus
 
 {: .cours }
-> Dans un triangle $ABC$, soient $a$, $b$, et $c$ les côtés opposés aux points, et $\alpha$, $\beta$, $\gamma$ leurs angles.
+> Dans un triangle $ABC$, notons $\alpha$, $\beta$, et $\gamma$ les angles des points $A$, $B$, et $C$, et $a$, $b$, $c$ leurs côtés opposés.
 >
 > Alors : $\dfrac{a}{\sin \alpha} = \dfrac{b}{\sin \beta} = \dfrac{c}{\sin \gamma}$
-a
+
 **Première démonstration : en utilisant les hauteurs.**
 
 1. Tracer la hauteur $h$ issue de $C$.
@@ -65,7 +65,7 @@ Soit $h$ la hauteur issue de $C$, et $H$ son pied.
 
 On en déduit que $a\sin\beta=b\sin\alpha$, d'où $\boxed{\dfrac{a}{\sin \alpha}=\dfrac{b}{\sin\beta}}$
 
-De même, soit $h'$ la hauteur issur de $A$, et $H'$ son pied.
+De même, soit $h'$ la hauteur issue de $A$, et $H'$ son pied.
 - $ABH$ est un triangle rectangle en $H$, donc $\sin\beta=\dfrac{h'}{c}, d'où $h'=c\sin\beta$
 - $ACH$ est un triangle rectangle en $H$, donc $\sin\gamma=\dfrac{h'}{b}$, d'où $h'=b\sin\gamma$
 
@@ -78,3 +78,17 @@ Or, $AHC$ étant un triangle rectangle, $\sin\alpha=\dfrac{h}{b}$, d'où $h=b\si
 Donc $S=\dfrac{bc\sin\alpha}{2} \Longleftrightarrow 1=\dfrac{bc\sin\alpha}{2S} \Longleftrightarrow \dfrac{1}{\sin\alpha} = \dfrac{bc}{2S} \Longleftrightarrow \dfrac{a}{\sin\alpha}=\dfrac{abc}{2S}$
 
 De même, $\dfrac{c}{\sin\gamma}=\dfrac{abc}{2S}$ et $\dfrac{b}{\sin\beta}=\dfrac{abc}{2S}$
+
+## Théorème d'Al-Kashi
+
+Soit $h$ la hauteur issue de $B$, et $H$ son pied.
+Alors : 
+- $CBH$ est un triangle rectangle en $H$, donc $\sin\gamma=\dfrac{BH}{a}$, d'où $BH=a\sin\gamma$
+- $CBH$ est un triangle rectangle en $H$, donc $\cos\gamma=\dfrac{CH}{a}, d'où $CH=a\cos\gamma$
+  Or, $AH=AC-CH$, donc $AH=b-a\cos\gamma$
+  
+De plus, $ABH$ est un triangle rectangle en $H$, donc $c^2 = BH^2 + AH^2$
+Donc $c^2=(a\sin\gamma)^2 + (b-a\cos\gamma)^2 = a^2\sin^2\gamma + b^2 - 2ab\cos\gamma +(a\cos\gamma)^2 = a^2\sin^2\gamma + b^2 - 2ab\cos\gamma +a^2\cos^2\gamma$
+
+En factorisant par $a^2$, on obtient : $c^2 = b^2-2ab\cos\gamma + a^2(\sin^2\gamma + \cos^2\gamma)$
+Or, $\cos^2\gamma+\sin^2\gamma=1$, donc $\boxed{c^2 = b^2+a^2-2ab\cos\gamma}$
