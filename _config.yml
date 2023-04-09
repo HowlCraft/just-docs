@@ -14,9 +14,13 @@ color_scheme: dawn
 callouts:
   note:
     title: Remarque
-    color: pink
-    opacity: 0.3
-  warning:
+    color: rose-moon
+    opacity: 0.4
+  attention:
     title: Attention
-    color: red
-
+    color: love-moon
+    opacity: 0.4
+  cours:
+    titre: Cours
+    color: foam
+    opacity: 0.4
