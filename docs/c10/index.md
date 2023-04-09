@@ -2,6 +2,7 @@
 layout: default
 title: 10. Colinéarité
 nav_order: 2
+has_children: true
 ---
 
 {: .no_toc .text-delta }
