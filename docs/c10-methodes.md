@@ -38,11 +38,9 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
 <details>
   <summary markdown="span">Solutions</summary>
 
-- Cas 1 : $det(\vec{u},\vec{v}) = 3\times 2 - 1\times (-6) = 12$
-  
-- Cas 2 : $det(\vec{u},\vec{v}) = (-1)\times (-1) - (-3)\times 2 = 7$
-  
-- Cas 3 : $det(\vec{u},\vec{v}) = 0,5\times (-8) - (-1)\times 4 = 0$
+  - Cas 1 : $det(\vec{u},\vec{v}) = 3\times 2 - 1\times (-6) = 12$
+  - Cas 2 : $det(\vec{u},\vec{v}) = (-1)\times (-1) - (-3)\times 2 = 7$
+  - Cas 3 : $det(\vec{u},\vec{v}) = 0,5\times (-8) - (-1)\times 4 = 0$
 </details>
 
 
@@ -57,15 +55,13 @@ Soient $A(7;-2)$, $B(1;2)$, $C(6;3)$, et $D(5;0)$ des points. Calculer le déter
 <details>
   <summary markdown="span">Solutions</summary>
     
-**Etape 1.** 
-  
+  **Etape 1.** 
     On calcule les coordonnées des vecteurs : 
-- $\vec{AB}\begin{pmatrix}1-7 \\\\ 2-(-2) \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}-6 \\\\ 4 \end{pmatrix}$
-- $\vec{CD}\begin{pmatrix}5-6 \\\\ 0-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-1 \\\\ -3 \end{pmatrix}$
+  - $\vec{AB}\begin{pmatrix}1-7 \\\\ 2-(-2) \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}-6 \\\\ 4 \end{pmatrix}$
+  - $\vec{CD}\begin{pmatrix}5-6 \\\\ 0-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-1 \\\\ -3 \end{pmatrix}$
     
-**Etape 2.** On calcule le déterminant : 
-  
-    $det(\vec{AB};\vec{CD})=(-6)\times(-3) - (-1)\times 4 =  18+4=\boxed{22}$
+  **Etape 2.** On calcule le déterminant : 
+  $det(\vec{AB};\vec{CD})=(-6)\times(-3) - (-1)\times 4 =  18+4=\boxed{22}$
 </details>
 
 {: .attention}
