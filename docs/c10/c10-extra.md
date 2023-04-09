@@ -2,7 +2,7 @@
 layout: default
 title: Extra
 parent: 10 - La Colinéarité
-nav_order: 1
+nav_order: 2
 ---
 
 # Les homothéties
