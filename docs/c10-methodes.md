@@ -20,11 +20,13 @@ nav_order: 2
 ## Calculer le déterminant de deux vecteurs.
 
 {: .cours }
-**Formule** : $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
+> Formule du déterminant :
+>
+> $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
 
 
 {: .attention }
-Si $\vec{u}\begin{pmatrix}2 \\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
+Si $\vec{u}\begin{pmatrix}2 \\\\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\\\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
 
 
 **Exercice.**
@@ -37,14 +39,16 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
   <summary markdown="span">Solutions</summary>
 
 - Cas 1 : $det(\vec{u},\vec{v}) = 3\times 2 - 1\times (-6) = 12$
+  
 - Cas 2 : $det(\vec{u},\vec{v}) = (-1)\times (-1) - (-3)\times 2 = 7$
+  
 - Cas 3 : $det(\vec{u},\vec{v}) = 0,5\times (-8) - (-1)\times 4 = 0$
 </details>
 
 
 {: .cours }
-Si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
-"point d'arrivé moins point de départ"
+> Si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
+> "point d'arrivé moins point de départ"
 
 
 **Exercice.**
@@ -54,11 +58,13 @@ Soient $A(7;-2)$, $B(1;2)$, $C(6;3)$, et $D(5;0)$ des points. Calculer le déter
   <summary markdown="span">Solutions</summary>
     
 **Etape 1.** 
+  
     On calcule les coordonnées des vecteurs : 
-- $\vec{AB}\\begin{pmatrix}1-7 \\\\ 2-(-2) \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}-6 \\\\ 4 \\end{pmatrix}$
-- $\vec{CD}\\begin{pmatrix}5-6 \\\\ 0-3 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}-1 \\\\ -3 \\end{pmatrix}$
+- $\vec{AB}\begin{pmatrix}1-7 \\\\ 2-(-2) \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}-6 \\\\ 4 \end{pmatrix}$
+- $\vec{CD}\begin{pmatrix}5-6 \\\\ 0-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-1 \\\\ -3 \end{pmatrix}$
     
 **Etape 2.** On calcule le déterminant : 
+  
     $det(\vec{AB};\vec{CD})=(-6)\times(-3) - (-1)\times 4 =  18+4=\boxed{22}$
 </details>
 
@@ -69,7 +75,9 @@ Deux vecteurs non nuls sont **colinéaires** si et seulement si leur déterminan
 ## Vérifier si deux vecteurs sont colinéaires.
 
 {: .cours }
-**Méthode** On calcule le déterminant. S'il est égal à $0$, les vecteurs sont colinéaires. Sinon, les vecteurs ne sont pas colinéaires.
+> **Méthode**
+> 
+> On calcule le déterminant. S'il est égal à $0$, les vecteurs sont colinéaires. Sinon, les vecteurs ne sont pas colinéaires.
 
 **Exercice**
 Les vecteurs $\vec{u}\\begin{pmatrix}-6 \\\\ 4 \\end{pmatrix}$ et $\vec{v}\\begin{pmatrix}3 \\\\ -2 \\end{pmatrix}$ sont-ils colinéaires ? Justifier.
@@ -77,9 +85,10 @@ Les vecteurs $\vec{u}\\begin{pmatrix}-6 \\\\ 4 \\end{pmatrix}$ et $\vec{v}\\begi
 <details>
   <summary markdown="span">Solutions (clique ici)</summary>
     
-**Etape 1.** On calcule le déterminant.
+Etape 1. On calcule le déterminant.
 $det(\vec{u};\vec{v})=(-6)\times (-2) - 4\times 3 = 12 - 12 = 0$
-**Etape 2.** Conclure.
+  
+Etape 2. Conclure.
 Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéaires.
 </details>
 
@@ -88,9 +97,14 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
 
 
 {: .cours }
-> **Méthode.** On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
+> **Méthode.** 
+> 
+> On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
+> 
 > 1) On calculer les coordonnées des vecteurs $\vec{GH}$ et $\vec{DE}$.
+> 
 > 2) On calcule le déterminant de $\vec{GH}$ et $\vec{DE}$.
+> 
 > 3) Si le déterminant est égal à $0$, les **vecteurs** sont colinéaires, et onc les **droites** sont parallèles. Sinon, les vecteurs ne sont pas colinéaires et les droites ne sont pas parallèles.
 
 
@@ -103,15 +117,16 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
     
 **Question 1.** 
 Calculons les coordonnées des vecteurs $\vec{AB}$ et $\vec{CD}$ : 
-- $\vec{AB}\\begin{pmatrix}1-(-3) \\\\ 3-2 \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}4 \\\\ 1 \\end{pmatrix}$
-- $\vec{CD}\\begin{pmatrix}0,5-(-2) \\\\ 4-0 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}2,5 \\\\ 4 \\end{pmatrix}$
+- $\vec{AB}\begin{pmatrix}1-(-3) \\\\ 3-2 \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}4 \\\\ 1 \end{pmatrix}$
+- $\vec{CD}\begin{pmatrix}0,5-(-2) \\\\ 4-0 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}2,5 \\\\ 4 \end{pmatrix}$
 Calculons le déterminant : $det(\vec{AB},\vec{CD})=4\times 4 - 2,5\times 1=13,5\neq 0$.
 Donc les vecteurs $\vec{AB}$ et $\vec{CD}$ ne sont pas colinéaires, et les droites $(AB)$ et $(CD)$ ne sont pas parallèles.
 
+  
 **Question 2.**
 Calculons les coordonnées des vecteurs $\vec{AC}$ et $\vec{BD}$ : 
-- $\vec{AB}\\begin{pmatrix}-2-(-3) \\\\ 0-2 \\end{pmatrix}$ donc $\vec{AB}\\begin{pmatrix}1 \\\\ -2 \\end{pmatrix}$
-- $\vec{CD}\\begin{pmatrix}0,5-1 \\\\ 4-3 \\end{pmatrix}$ donc $\vec{CD}\\begin{pmatrix}-0,5 \\\\ 1 \\end{pmatrix}$
+- $\vec{AB}\begin{pmatrix}-2-(-3) \\\\ 0-2 \end{pmatrix}$ donc $\vec{AB}\begin{pmatrix}1 \\\\ -2 \end{pmatrix}$
+- $\vec{CD}\begin{pmatrix}0,5-1 \\\\ 4-3 \end{pmatrix}$ donc $\vec{CD}\begin{pmatrix}-0,5 \\\\ 1 \end{pmatrix}$
 Calculons le déterminant : $det(\vec{AC},\vec{BD})=1\times 1 - (-0,5)\times (-2)=1-1= 0$.
 Donc les vecteurs $\vec{AB}$ et $\vec{CD}$ sont colinéaires, et les droites $(AB)$ et $(CD)$ sont parallèles.
 </details>
@@ -158,7 +173,9 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 
 {: .cours }
 > Calculer le déterminant avec les inconnues ($x$ ou $y$ en général)
+> 
 > Cela donne une équation $=0$, car le déterminant doit être nul.
+> 
 > Résoudre l'équation.
 
 
