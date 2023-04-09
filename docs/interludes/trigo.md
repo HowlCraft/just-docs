@@ -4,12 +4,20 @@ layout: home
 ---
 # Interlude : la Trigonométrie
 
+<details markdown="block">
+  <summary>
+    Contenu
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
-## Cours (à écrire sur la première page du cahier)
+## Cours
 
 <img style="float: right;" src="https://minio.apps.education.fr/codimd-prod/uploads/upload_79b8f194f6951d58087546bf9c49eafa.png" width=400>
 
-#: .cours }
+{: .cours }
 > On se place dans un triangle **rectangle**. 
 > 
 > - $cos(\alpha)=\dfrac{\text{adjacent}}{\text{hypothénuse}}$
@@ -23,14 +31,13 @@ Note : le côté *opposé* est le côté *qui ne touche pas* l'angle $\alpha$. L
 
 ## Exercices
 
-Les exercices sont à trouver en pdf sur viescolaire dans vos devoirs pour mercredi. Les corrections seront mises en ligne vers la fin de la semaine. *Oui*, les exercices sont à faire.
-
+EXERCICES ICI
 INDICES ET SOLUTIONS [ICI](https://codimd.apps.education.fr/s/YNeMPvLJZ#) (incomplètes pour le moment)
 
 ## Méthodes.
 
 ### Déterminer la valeur d'un angle à partir du cos/sin/tan.
-{: .cours}
+{: .cours }
 > La calculatrice a les trois touches ```cos``` / ```sin``` / ```tan```. Elle a aussi les touches (en général ```2nde + cos```) ```arccos```, ```arcsin```, et ```arctan```.
 Sur certaines calculatrices, ces touches peuvent s'appeler ```acos``` ou ```cos-1```.
 > - La touche ```cos``` permet de passer de l'angle au cosinus
