@@ -1,16 +1,9 @@
 ---
 layout: default
-title: 10. Colinéarité
-nav_order: 2
+title: Méthodes colinéarité
 ---
 
-# Customization
-{: .no_toc }
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
+## Contenu
 {:toc}
 
 ---
