@@ -54,7 +54,7 @@ Pour vérifier, essayez de faire les deux calculs de l'exemple ; si vous trouvez
 
 ### Déterminer la valeur d'un angle à partir de longueurs
 
-{: .note }
+{: .methode }
 Voici un énoncé : soit $ABC$ un triangle rectangle en $A$ tel que $AB=8$ et $BC=16$. Déterminer la valeur de l'angle $\widehat{ABC}$
 
 
@@ -67,8 +67,7 @@ Voici un énoncé : soit $ABC$ un triangle rectangle en $A$ tel que $AB=8$ et $B
 
 ### Déterminer une longueur dans un triangle rectangle.
 
-{: .note }
-**Enoncé**
+{: .methode }
 Voici un énoncé : soit $ABC$ un triangle rectangle en $A$ tel que $AB=5$ et $\widehat{ACB}=22,62°$. Calculer $AC$.
 
 1. On cherche la formule qui lie les informations données et ce qu'on cherche ($AC$)
