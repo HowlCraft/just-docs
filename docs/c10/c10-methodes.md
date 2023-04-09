@@ -2,6 +2,7 @@
 layout: default
 title: Méthodes colinéarité
 parent: c10
+nav_order: 1
 ---
 
 # Methodes : la colinéarité 
@@ -20,10 +21,10 @@ parent: c10
 {: .cours }
 > Formule du déterminant :
 >
-> $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\ y' \end{pmatrix}$
+> $det(\vec{u},\vec{v}) = xy' - x'y$, pour $\vec{u}\\begin{pmatrix}x \\\\ y \\end{pmatrix}$ et $\vec{v}\begin{pmatrix}x' \\\\ y' \end{pmatrix}$
 
 
-{: .attention }
+{: .exemple }
 Si $\vec{u}\begin{pmatrix}2 \\\\ -5 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}4 \\\\ 3 \end{pmatrix}$, alors $det(\vec{u},\vec{v}) = 2\times 3 - 4\times (-5) = 6+20=26$
 
 
@@ -43,7 +44,7 @@ Calculer les déterminant des vecteurs $\vec{u}$ et $\vec{v}$ dans les cas suiva
 
 
 {: .cours }
-> Si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\ y_B-y_A \end{pmatrix}$
+> Si $A(x_A;y_A)$ et $B(x_B;y_B)$, alors $\vec{AB}\begin{pmatrix}x_B-x_A \\\\ y_B-y_A \end{pmatrix}$
 > "point d'arrivé moins point de départ"
 
 
@@ -62,13 +63,13 @@ Soient $A(7;-2)$, $B(1;2)$, $C(6;3)$, et $D(5;0)$ des points. Calculer le déter
   $det(\vec{AB};\vec{CD})=(-6)\times(-3) - (-1)\times 4 =  18+4=\boxed{22}$
 </details>
 
-{: .attention}
+{: .cours}
 Deux vecteurs non nuls sont **colinéaires** si et seulement si leur déterminant est nul (égal à $0$)
 
 
 ## Vérifier si deux vecteurs sont colinéaires.
 
-{: .cours }
+{: .methode }
 > **Méthode**
 > 
 > On calcule le déterminant. S'il est égal à $0$, les vecteurs sont colinéaires. Sinon, les vecteurs ne sont pas colinéaires.
@@ -90,7 +91,7 @@ Le déterminant est nul, donc les vecteurs $\vec{u}$ et $\vec{v}$ sont colinéai
 ## Vérifier si deux droites sont parallèles.
 
 
-{: .cours }
+{: .methode }
 > **Méthode.** 
 > 
 > On veut savoir si les droites $(GH)$ et $(DE)$ sont parallèles.
@@ -127,24 +128,23 @@ Donc les vecteurs $\vec{AB}$ et $\vec{CD}$ sont colinéaires, et les droites $(A
 
 ## Vérifier si trois points sont alignés.
 
-{: .cours }
+{: .methode }
 >Soient trois points $M$, $N$, et $P$.
 >Pour savoir s'ils sont alignés, on construit deux vecteurs à partir de ces points (*n'importe lesquels*), et on calcule le déterminant de ces vecteurs.
 Si le déterminant est nul, les points sont alignés. Sinon, les points ne sont pas alignés.
 
 
 
-{: note-title }
-> Exemple
-> 
+{: .exemple }
 > Soient $A(3;1)$, $B(4; 5)$ et $C(7; 17)$.
 > On choisit les vecteurs $\vec{AB}$ et $\vec{AC}$.
+>
+> $\vec{AB}\\begin{pmatrix}1\\\\ 4 \\end{pmatrix}$ et $\vec{AC}\\begin{pmatrix}4 \\\\ 16 \\end{pmatrix}$
+>
+> Donc $det(\vec{AB},\vec{AC})=1\times 16 - 4\times 4 =0$.
+> 
+> Les vecteurs sont colinéaires, donc les points sont alignés.
 
-$\vec{AB}\\begin{pmatrix}1\\\\ 4 \\end{pmatrix}$ et $\vec{AC}\\begin{pmatrix}4 \\\\ 16 \\end{pmatrix}$
-
-Donc $det(\vec{AB},\vec{AC})=1\times 16 - 4\times 4 =0$.
-Les vecteurs sont colinéaires, donc les points sont alignés.
-:::
 
 **Exercice.**
 Dans chacun des cas, dire si les points sont alignés ou non :
@@ -165,7 +165,7 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 
 ## Trouver les coordonnés d'un point (sachant que les vecteurs sont colinéaires)
 
-{: .cours }
+{: .methode }
 > Calculer le déterminant avec les inconnues ($x$ ou $y$ en général)
 > 
 > Cela donne une équation $=0$, car le déterminant doit être nul.
@@ -173,9 +173,7 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 > Résoudre l'équation.
 
 
-{: note-title }
-> Exemple
-> 
+{: exemple }
 > Soient $\vec{u}\begin{pmatrix}x \\ 3 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}5 \\ -2 \end{pmatrix}$
 > -deux vecteurs colinéaires. Déterminer $x$.
 >
