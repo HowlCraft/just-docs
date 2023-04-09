@@ -1,7 +1,9 @@
 ---
 title: Interlude - Trigonométrie
 layout: home
+has_children: true
 ---
+
 # Interlude : la Trigonométrie
 
 <details markdown="block">
