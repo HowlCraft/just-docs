@@ -16,6 +16,10 @@ callouts:
     title: Remarque
     color: rose-moon
     opacity: 0.4
+  note:
+    title: Exemple
+    color: rose-moon
+    opacity: 0.4
   attention:
     title: Attention
     color: love-moon
