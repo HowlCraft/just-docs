@@ -2,7 +2,7 @@
 layout: default
 title: Extra 2
 parent: Interlude - Trigonométrie
-nav_order: 1
+nav_order: 2
 ---
 
 # Préparer la première : trigonométrie
