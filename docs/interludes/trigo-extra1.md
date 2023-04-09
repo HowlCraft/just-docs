@@ -88,7 +88,9 @@ Alors :
   Or, $AH=AC-CH$, donc $AH=b-a\cos\gamma$
   
 De plus, $ABH$ est un triangle rectangle en $H$, donc $c^2 = BH^2 + AH^2$
+
 Donc $c^2=(a\sin\gamma)^2 + (b-a\cos\gamma)^2 = a^2\sin^2\gamma + b^2 - 2ab\cos\gamma +(a\cos\gamma)^2 = a^2\sin^2\gamma + b^2 - 2ab\cos\gamma +a^2\cos^2\gamma$
 
 En factorisant par $a^2$, on obtient : $c^2 = b^2-2ab\cos\gamma + a^2(\sin^2\gamma + \cos^2\gamma)$
+
 Or, $\cos^2\gamma+\sin^2\gamma=1$, donc $\boxed{c^2 = b^2+a^2-2ab\cos\gamma}$
