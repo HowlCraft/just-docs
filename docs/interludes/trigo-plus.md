@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Methodes
+title: Extras
 parent: Interlude - Trigonométrie
 nav_order: 1
 ---
