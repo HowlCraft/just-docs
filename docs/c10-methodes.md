@@ -3,6 +3,8 @@ layout: default
 title: Méthodes colinéarité
 ---
 
+# Methodes : la colinéarité 
+
 <details markdown="block">
   <summary>
     Contenu
@@ -11,12 +13,7 @@ title: Méthodes colinéarité
 1. TOC
 {:toc}
 </details>
-
-
----
-
-# Methodes : la colinéarité 
-
+  
 ## Calculer le déterminant de deux vecteurs.
 
 {: .cours }
