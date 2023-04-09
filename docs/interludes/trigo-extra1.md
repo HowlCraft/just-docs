@@ -5,16 +5,16 @@ parent: Interlude - Trigonométrie
 nav_order: 1
 ---
 
-Ici se trouvent trois théorèmes à démontrer. Les démonstrations sont guidées, et sont rédigées à la fin de la page.
+Ici se trouvent deux théorèmes à démontrer. Les démonstrations sont guidées et sont rédigées en fin de la page.
 
 
 # La loi des sinus
 
 {: .cours }
-> Dans un triangle, soient $a$, $b$, et $c$ les côtés opposés aux points, et $\alpha$, $\beta$, $\gamma$ leurs angles.
+> Dans un triangle $ABC$, soient $a$, $b$, et $c$ les côtés opposés aux points, et $\alpha$, $\beta$, $\gamma$ leurs angles.
 >
 > Alors : $\dfrac{a}{\sin \alpha} = \dfrac{b}{\sin \beta} = \dfrac{c}{\sin \gamma}$
-
+a
 **Première démonstration : en utilisant les hauteurs.**
 
 1. Tracer la hauteur $h$ issue de $C$.
@@ -32,11 +32,10 @@ Ici se trouvent trois théorèmes à démontrer. Les démonstrations sont guidé
 4. Par symétrie des notations, la formule est vérifiée.
 
 {: .cours }
-> **Corrolaire**
+> **Corollaire**
 > L'aire d'un triangle $ABC$ est égale à $\dfrac{1}{2}ab\sin\gamma$
 
-Cette formule découle simplement du fait que la hauteur issue de $A$ est égale à $b\sin\gamma$. Elle est pratique lorsqu'il s'agit dee
-calculer l'aide d'un triangle dont on ne connaît pas la hauteur.
+Cette formule découle simplement du fait que la hauteur issue de $A$ est égale à $b\sin\gamma$. Elle est pratique lorsqu'il s'agit de calculer l'aide d'un triangle dont on ne connaît pas la hauteur.
 
 # La formule d'Al-Kashi
 
@@ -53,8 +52,23 @@ Il y a plusieurs démonstrations ; celle proposée ici reprend le théorème de 
 1. Tracer la hauteur issue de $B$. On note son pied (intersection de la hauteur et de la base) $H$.
 2. - Montrer que $BH=a\sin\gamma$
    - Montrer que $AH=b-a\cos\gamma$
-   - Montrer que $CH=a\cos\gamma$
 3. En utilisant l'égalité de Pythagore, en déduire que $c^2 = b^2 - 2ab\cos\gamma + a^2(\cos^2\gamma + \sin^2\gamma)$
 4. En déduire que $c^2=b^2 + a^2 - 2ab\cos\gamma$
 
-# 
+# Solutions.
+
+## La loi des sinus -méthode des hauteurs
+
+Soit $h$ la hauteur issue de $C$, et $H$ son pied.
+- $CAH$ est un triangle rectangle en $H$. On a donc $\sin\alpha=\dfrac{h}{b}$, d'où $h=b\sin\alpha$
+- $CBH$ est un triangle rectangle en $H$. On a donc $\sin\beta=\dfrac{h}{a}$, d'où $h=a\sin\beta$
+
+On en déduit que $a\sin\beta=b\sin\alpha$, d'où $\boxed{\dfrac{a}{\sin \alpha}=\dfrac{b}{\sin\beta}}$
+
+De même, soit $h'$ la hauteur issur de $A$, et $H'$ son pied.
+- $ABH$ est un triangle rectangle en $H$, donc $\sin\beta=\dfrac{h'}{c}, d'où $h'=c\sin\beta$
+- $ACH$ est un triangle rectangle en $H$, donc $\sin\gamma=\dfrac{h'}{b}$, d'où $h'=b\sin\gamma$
+
+On en déduit que $c\sin\beta=b\sin\gamma$, d'où  $\boxed{\dfrac{a}{\sin \alpha}=\dfrac{c}{\sin\gamma}}$
+
+## La loi des sinus -méthode de l'aire
