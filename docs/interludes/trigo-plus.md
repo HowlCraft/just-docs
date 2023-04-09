@@ -16,7 +16,7 @@ nav_order: 1
 {:toc}
 </details>
 
-## Introdution
+## Introduction
 
 ### Historiquement : pourquoi 360 degrés ?
 
