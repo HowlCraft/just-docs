@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Extras
+title: Extra 2
 parent: Interlude - Trigonométrie
 nav_order: 1
 ---
