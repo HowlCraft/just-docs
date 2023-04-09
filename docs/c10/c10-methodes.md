@@ -171,7 +171,7 @@ Dans chacun des cas, dire si les points sont alignés ou non :
 > Résoudre l'équation.
 
 
-{: exemple }
+{: .exemple }
 > Soient $\vec{u}\begin{pmatrix}x \\\\ 3 \end{pmatrix}$ et $\vec{v}\begin{pmatrix}5 \\\\ -2 \end{pmatrix}$
 > -deux vecteurs colinéaires. Déterminer $x$.
 >
