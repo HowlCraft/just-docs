@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Méthodes colinéarité
+parent: c10
 ---
 
 # Methodes : la colinéarité 
