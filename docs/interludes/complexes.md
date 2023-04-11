@@ -82,11 +82,11 @@ Pour $z=a+ib$ et $z'=a'+ib'$ deux complexes, on a :
 ### Module et inverse.
 
 {: .cours}
-Soit $z=a+ib\in\mathbb{C}$. On définit le **module** de $z$ par $|z| =\sqrt{a^2+b^2}$.
+Soit $z=a+ib\in\mathbb{C}$. On définit le **module** de $z$ par $\|z\| =\sqrt{a^2+b^2}$.
 
 **Note.** Soit $z=a+ib$ un nombre complexe. Calculons son inverse : 
 
-$\dfrac{1}{z}=\dfrac{1}{a+ib}=\dfrac{1\times(a-ib)}{(a+ib)(a-ib)}=\dfrac{a-ib}{a^2-b^2}=\dfrac{\overline{z}}{|z|^2}$
+$\dfrac{1}{z}=\dfrac{1}{a+ib}=\dfrac{1\times(a-ib)}{(a+ib)(a-ib)}=\dfrac{a-ib}{a^2-b^2}=\dfrac{\overline{z}}{\|z\|^2}$
 
 ## Exercices.
 
