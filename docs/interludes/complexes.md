@@ -131,9 +131,9 @@ Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
 - $3+2i$ Partie réelle : 3$, partie imaginaire : $2$
 - $-2i+4$ Partie réelle : $4$, partie imaginaire $-2$
 - $\dfrac{3+5i}{2}$ Partie réelle $\dfrac{3}{2}$, partie imaginaire : $\dfrac{5}{2}$
-- $z=\dfrac{2i-1}{\sqrt{2}}$ $\Re(z)$=\sqrt{2}$, $\Im(z)=-\dfrac{\sqrt{2}}{2}$
+- $z=\dfrac{2i-1}{\sqrt{2}}$ $\Re(z)=\sqrt{2}$, $\Im(z)=-\dfrac{\sqrt{2}}{2}$
 - $4i$ $\Re(4i)=0$, $\Im(2i)=4$
-- $0$ $\Re(0)=0$, $\Im(0)=0$
+- $0 \Re(0)=0$, $\Im(0)=0$
 - $i^2 \Re(i^2)=-1$, $\Im(i^2)=0$, car $i^2=-1$
 
 ### Exercice 3.
