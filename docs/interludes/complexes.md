@@ -16,19 +16,15 @@ layout: home
 ## Introduction historique.
 
 Etudions l'équation $(x+3)(x-\dfrac{1}{2})=0$.
-
-Dans $\mathbb{N}$, cette équation n'a pas de solutions.
-Dans $\mathbb{Z}$, elle en a une : $-3$.
-Dans $\mathbb{Q}$, elle en a deux : $-3$ et $\dfrac{1}{2}$.
+- Dans $\mathbb{N}$, cette équation n'a pas de solutions.
+- Dans $\mathbb{Z}$, elle en a une : $-3$.
+- Dans $\mathbb{Q}$, elle en a deux : $-3$ et $\dfrac{1}{2}$.
 
 **Remarque.** Soit $P$ un polynôme de degré $n$. Alors $P$ a *au plus* $n$ racines (dans $\mathbb{r}$)
 
 Etudions l'équation $x^2-2=0$. Dans $\mathbb{Q}$, elle n'a pas de solutions. Mais dans $\mathbb{R}$, elle en a deux $\sqrt{2}$ et $-\sqrt{2}$.
 
-La création des nombres complexes vient de l'envie de "créer" des solutions pour les équations n'en ayant pas dans l'ensemble des nombres réels.
-Spécifiquement, ils on été introduits au $XVI^{ième}$ siècle par Cardan pour résoudre les équations du type : $x^3+px+q=0$, avec $p$ et $q$ réels.
-Sa méthode demande l'existence de **racines carrées de nombres négatifs** : comme ces nombres n'existent pas, 
-Cardan les introduit en tant que *nombres imaginaires*, des nombres ayant **un carré négatif**.
+La création des nombres complexes vient de l'envie de "créer" des solutions pour les équations n'en ayant pas dans l'ensemble des nombres réels. Spécifiquement, ils on été introduits au $XVI^{ième}$ siècle par Cardan pour résoudre les équations du type : $x^3+px+q=0$, avec $p$ et $q$ réels. Sa méthode demande l'existence de **racines carrées de nombres négatifs** : comme ces nombres n'existent pas,Cardan les introduit en tant que *nombres imaginaires*, des nombres ayant **un carré négatif**.
 
 En admettant l'existence d'un nombre imaginaire $i$ tel que $i^2=-1$, on est forcé d'introduire tous les "nombres" 
 de la forme $a+bi$ (addition et multiplication), avec $a$ et $b$ réels.
@@ -131,4 +127,11 @@ Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
 - $(2+4i)^2 = 4-2\times 2\times 4i +(4i)^2 = 4-16i - 16 = -12-16i$
 - $(1+i)^3=(1+i)(1+2i-1) = (1+i)2i =2i+2i^2 = -2 + 2i$
 
-
+### Exercice 2.
+- $3+2i$ Partie réelle : 3$, partie imaginaire : $2$
+- $-2i+4$ Partie réelle : $4$, partie imaginaire $-2$
+- $\dfrac{3+5i}{2}$ Partie réelle $\dfrac{3}{2}$, partie imaginaire : $\dfrac{5}{2}$
+- $z=\dfrac{2i-1}{\sqrt{2}}$ $\Re(z)$=\sqrt{2}$, $\Im(z)=-\dfrac{\sqrt{2}{2}$
+- $4i$ $\Re(4i)=0$, $\Im(2i)=4$
+- $0$ $\Re(0)=0$, $\Im(0)=0$
+- $i^2 \Re(i^2)=-1$, $\Im(i^2)=0$, car $i^2=-1$
