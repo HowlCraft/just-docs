@@ -76,7 +76,9 @@ Le conjugé du nombre complexe $z=a+ib$ est $a-ib$. On le note $\overline{z}$.
 
 
 Pour $z=a+ib$ et $z'=a'+ib'$ deux complexes, on a :
+
 | $\overline{\overline{z}}=z$ | $z\overline{z} = a^2+b^2$ | $\overline{z^n}=\overline{z}^n$ | $\overline{z}+\overline{z'}=\overline{z+z'}$ | $\overline{z}\overline{z'}=\overline{zz'}$ | $\overline{\frac{z}{z'}}=\frac{\overline{z}}{\overline{z'}}$ |
+
 | -------------  | -------------| -------------| -------------| -------------| -------------|
 
 ### Module et inverse.
