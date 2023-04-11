@@ -106,7 +106,7 @@ Déterminer la partie réelle et la partie imaginaire de chacun des nombres comp
 - $0$
 - $i^2$
 
-### Exercice 3.**
+### Exercice 3.
 Déterminer les conjugués des nombre suivants :
 - $3+2i$
 - $3i-4$
@@ -135,3 +135,17 @@ Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
 - $4i$ $\Re(4i)=0$, $\Im(2i)=4$
 - $0$ $\Re(0)=0$, $\Im(0)=0$
 - $i^2 \Re(i^2)=-1$, $\Im(i^2)=0$, car $i^2=-1$
+
+### Exercice 3.
+- $3+2i$ a pour conjugué $3-2i$
+- $3i-4$ a pour conjugué $-3i-4$
+- $-5-6i$ a pour conjugué $-5+6i$
+- $i$ a pour conjugué $-i$
+
+### Exercice 4.
+Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
+1. On cherche à résoudre l'équation $\Im(z)=0$, c'est à dire $2(a^2-3)=0$
+   $\Longleftrightarrow a^2-3=0 \Longleftrightarrow a^2=3$. Les solutions sont $a=\sqrt{6}$ et $a=-\sqrt{6}$.
+2. On cherche à résoudre l'équation $\Re(z)=0$, c'est à dire $a^2+1=0$
+   Or, $a^2+1=0 \Longleftrightarrow $a^2=-1$, et cette équation n'a pas de solutions dans $\mathbb{R}$.
+   Quelquesoit le réel $a$, $z$ ne sera jamais imaginaire pur.
