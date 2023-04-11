@@ -67,10 +67,10 @@ $2+3i + 5+9i = 7+12i$
 {: .cours}
 Soient $z=a+bi$ et $z'=a'+b'i$ deux nombres complexes. Alors $zz' = (aa'-bb') + i(ab'+b'a)$
 
-### Le conjugé.
+### Le conjugué.
 
 {: .cours}
-Le conjugé du nombre complexe $z=a+ib$ est $a-ib$. On le note $\overline{z}$.
+Le conjugué du nombre complexe $z=a+ib$ est $a-ib$. On le note $\overline{z}$.
 
 **Exemple.** Le conjugé de $5+2i$ est $5-2i$. Le conjugué de $-4-7i$ est $-4+7i$.
 
