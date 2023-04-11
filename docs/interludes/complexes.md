@@ -103,7 +103,7 @@ Déterminer la partie réelle et la partie imaginaire de chacun des nombres comp
 - $3+2i$
 - $-2i+4$
 - $\dfrac{3+5i}{2}$
-- $\dfrac{2i-1}{\sqrt{2}$
+- $\dfrac{2i-1}{\sqrt{2}}$
 - $4i$
 - $0$
 - $i^2$
@@ -111,4 +111,4 @@ Déterminer la partie réelle et la partie imaginaire de chacun des nombres comp
 ### Exercice 3.
 Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
 1. Déterminer les éventuelles valeurs de $a$ tel que $z$ soit un réel.
-2. Déterminer les éventuelels valeurs de $a$ etl que $z$ soit un imaginaire pur (sa partie réelle est nulle).
+2. Déterminer les éventuelles valeurs de $a$ tel que $z$ soit un imaginaire pur (sa partie réelle est nulle).
