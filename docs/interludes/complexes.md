@@ -149,6 +149,6 @@ Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
    $\Longleftrightarrow a^2-3=0 \Longleftrightarrow a^2=3$. Les solutions sont $a=\sqrt{6}$ et $a=-\sqrt{6}$.
 2. On cherche à résoudre l'équation $\Re(z)=0$, c'est à dire $a^2+1=0$
    
-   Or, $a^2+1=0 \Longleftrightarrow $a^2=-1$, et cette équation n'a pas de solutions dans $\mathbb{R}$.
+   Or, $a^2+1=0 \Longleftrightarrow a^2=-1$, et cette équation n'a pas de solutions dans $\mathbb{R}$.
    
    Quelquesoit le réel $a$, $z$ ne sera jamais imaginaire pur.
