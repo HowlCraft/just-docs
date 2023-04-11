@@ -110,7 +110,25 @@ Déterminer la partie réelle et la partie imaginaire de chacun des nombres comp
 - $0$
 - $i^2$
 
-### Exercice 3.
+### Exercice 3.**
+Déterminer les conjugués des nombre suivants :
+- $3+2i$
+- $3i-4$
+- $-5-6i$
+- $i$
+
+### Exercice 4.
 Soit $a$ un réel et $z=a^2+1+2i(a^2-3)$ un nomre complexe.
 1. Déterminer les éventuelles valeurs de $a$ tel que $z$ soit un réel.
 2. Déterminer les éventuelles valeurs de $a$ tel que $z$ soit un imaginaire pur (sa partie réelle est nulle).
+
+## Solutions.
+
+### Exercice 1.
+- $3+2i - (3i-2) = 5-i$
+- $(3-2i)(2+3i)=6+9i-4i-6i^2=6+9i-4i+6=12-5i$
+- $i^3=i\times i^2 = i\times (-1) = -i$
+- $(2+4i)^2 = 4-2\times 2\times 4i +(4i)^2 = 4-16i - 16 = -12-16i$
+- $(1+i)^3=(1+i)(1+2i-1) = (1+i)2i =2i+2i^2 = -2 + 2i$
+
+
