@@ -43,8 +43,7 @@ Autant les degrés sont la méthode historique de calcul, autant c'est les radia
 Soient deux droites concourantes distinctes formant un secteur angulaire. Soit un cercle dont le centre est le point d'intersection des droites et de rayon $r$ quelconque.
 Alors la valeur de l'angle en radians est le rapport entre la longueur $L$ de l'arc de cercle intercepté par les droites et le rayon $r$.
 
-
-![](https://minio.apps.education.fr/codimd-prod/uploads/upload_1a5f4c9c140542cb463d6f7da78bfa39.png =450x)
+<img src="https://minio.apps.education.fr/codimd-prod/uploads/upload_1a5f4c9c140542cb463d6f7da78bfa39.png" width="450" />
 
 Comme $L$ est une fraction du périmètre total du cercle $2\pi r$, une chose fantastique se passe : quelque soit le rayon du cercle choisi, le rapport $\dfrac{L}{r}$ est toujours le même.
 
@@ -66,7 +65,7 @@ Par défaut, on utilise :
 
 Ces conditions créent ce qu'on appelle le **cercle trigonométrique**, de centre $O(0;0)$ et de rayon $1$ : 
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mathforu.com%2Fassets%2Fimg%2Fimage-20171115145055.png&f=1&nofb=1&ipt=0c331e250df9c9b9d598ba3ddc7a8bd7c17ec988e9a508f19099e9c02cc792bf&ipo=images =300x)
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mathforu.com%2Fassets%2Fimg%2Fimage-20171115145055.png&f=1&nofb=1&ipt=0c331e250df9c9b9d598ba3ddc7a8bd7c17ec988e9a508f19099e9c02cc792bf&ipo=images" width="300" />
 
 ### Les angles importants
 
@@ -75,7 +74,7 @@ Ces conditions créent ce qu'on appelle le **cercle trigonométrique**, de centr
 - $90°$ est $\dfrac{\pi}{2}$ : le quart de périmètre d'un...
 - $45°$ est $\dfrac{\pi}{4}$ : la moitié du quart de périmètre d'un...
 
-| ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmathbooks.unl.edu%2FPreCalculus%2Fimages%2FimagesChap13%2FcommonDegrees.png&f=1&nofb=1&ipt=bbbf3dce9d666583ce6e5ef13faddb4df94bab8ef69c7ff7326456e48a527eeb&ipo=images =260x) | ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.coolmath.com%2Fsites%2Fdefault%2Ffiles%2Fimages%2F28-trigonometry-01.gif&f=1&nofb=1&ipt=8e57a9bbdb6db8bd67f8e155aecb87e53f22c72082784a60108b4ed58783980b&ipo=images =250x) |
+| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmathbooks.unl.edu%2FPreCalculus%2Fimages%2FimagesChap13%2FcommonDegrees.png&f=1&nofb=1&ipt=bbbf3dce9d666583ce6e5ef13faddb4df94bab8ef69c7ff7326456e48a527eeb&ipo=images" width="250" /> | <img src="hhttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.coolmath.com%2Fsites%2Fdefault%2Ffiles%2Fimages%2F28-trigonometry-01.gif&f=1&nofb=1&ipt=8e57a9bbdb6db8bd67f8e155aecb87e53f22c72082784a60108b4ed58783980b&ipo=images" width="250" /> |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### Points, nombres, et angles
