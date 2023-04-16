@@ -7,7 +7,7 @@ nav_order: 2
 
 # Les homothéties
 
-Le terme d'homoéthétie semble être dû au mathématicien français Micher **Chasles** (oui, le même que celui de la *relation de Chasles* !). Son préfixe, *homo-*, veut dire "semblable", et *thésis* signifie "position".
+Le terme d'homoéthétie semble être dû au mathématicien français Michel **Chasles** (oui, le même que celui de la *relation de Chasles* !). Son préfixe, *homo-*, veut dire "semblable", et *thésis* signifie "position".
 Il traduit la correspondance entre deux figures de même forme.
 
 ## Définition du collège
