@@ -123,7 +123,7 @@ Prenons un angle sur notre cercle trigonométrique. Qu'est-ce que son **cosinus*
 
 Par la définition que l'on connait ($\dfrac{\text{adjacent}}{\text{hypothénuse}}$), il nous faut d'abord un triangle **rectangle**. Qu'à cela ne tienne, dessinons-en un.
 
-![](https://minio.apps.education.fr/codimd-prod/uploads/upload_b0aca982f862a03ec1be96987ffb7d8b.png =400x)
+<img src="https://minio.apps.education.fr/codimd-prod/uploads/upload_b0aca982f862a03ec1be96987ffb7d8b.png" width="350" /> 
 
 Par nos formules, $\cos(\alpha)=\dfrac{OB}{OA}$. Or, $OA$ est le rayon du cercle trigonométrique, qui est égal à $1$.
 Donc $\cos(\alpha)=OB$, c'est-à-dire **l'abscisse du point $A$**.
@@ -146,7 +146,7 @@ De même que pour les degrés, on a les propositions suivantes :
 
 *Note* : les sinus et cosinus peuvent maintenant être négatifs, de même que les angles, puisqu'il y a bien des points sur le cercle trigonométrique ayant des coordonnées négatives.
 
-![](https://www.annales2maths.com/wp-content/uploads/2020/04/1%C3%A8re-cours-trigonom%C3%A9trie-cercle-trigonom%C3%A9trique-et-valeurs-particuli%C3%A8res-cos-sin.png =500x)
+<img src="https://www.annales2maths.com/wp-content/uploads/2020/04/1%C3%A8re-cours-trigonom%C3%A9trie-cercle-trigonom%C3%A9trique-et-valeurs-particuli%C3%A8res-cos-sin.png" width="350" /> 
 
 ## Exercices
 
