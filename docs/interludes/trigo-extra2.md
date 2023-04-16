@@ -150,4 +150,4 @@ De même que pour les degrés, on a les propositions suivantes :
 
 ## Exercices
 
-[Voir le pdf ici ](https://drive.google.com/file/d/1Mr6c5O_BtyLqynL8O70I2jW31UchCr4O/view?usp=share_link)
+[Voir le pdf ici ](https://howlcraft.github.io/just-docs/docs/interludes/exercices_trigonometrie_extra2.pdf)
