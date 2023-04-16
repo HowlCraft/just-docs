@@ -74,8 +74,7 @@ Ces conditions créent ce qu'on appelle le **cercle trigonométrique**, de centr
 - $90°$ est $\dfrac{\pi}{2}$ : le quart de périmètre d'un...
 - $45°$ est $\dfrac{\pi}{4}$ : la moitié du quart de périmètre d'un...
 
-| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmathbooks.unl.edu%2FPreCalculus%2Fimages%2FimagesChap13%2FcommonDegrees.png&f=1&nofb=1&ipt=bbbf3dce9d666583ce6e5ef13faddb4df94bab8ef69c7ff7326456e48a527eeb&ipo=images" width="250" /> | <img src="hhttps://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.coolmath.com%2Fsites%2Fdefault%2Ffiles%2Fimages%2F28-trigonometry-01.gif&f=1&nofb=1&ipt=8e57a9bbdb6db8bd67f8e155aecb87e53f22c72082784a60108b4ed58783980b&ipo=images" width="250" /> |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmathbooks.unl.edu%2FPreCalculus%2Fimages%2FimagesChap13%2FcommonDegrees.png&f=1&nofb=1&ipt=bbbf3dce9d666583ce6e5ef13faddb4df94bab8ef69c7ff7326456e48a527eeb&ipo=images" width="250" /> | <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.coolmath.com%2Fsites%2Fdefault%2Ffiles%2Fimages%2F28-trigonometry-01.gif&f=1&nofb=1&ipt=8e57a9bbdb6db8bd67f8e155aecb87e53f22c72082784a60108b4ed58783980b&ipo=images" width="250" /> |
 
 ### Points, nombres, et angles
 
