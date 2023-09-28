@@ -2,7 +2,7 @@
 title: Home
 layout: home
 ---
-# Page d'accueil du cours de mathématiques de Seconde.
+# Seconde 15 : Cours de Mathématiques
 
 ## En ce moment...
 
@@ -10,7 +10,7 @@ Voir le [chapitre sur la colinéarité](https://howlcraft.github.io/just-docs/do
 
 ## Au programme du prochain DS
 
-Le prochain DS portera sur les statistiques (spécifiquement, la comparaison de séries statistiques à l'aide de leurs indicateurs), tous les chapitres sur les vecteurs, dont le dernier sur la colinéarité, et la programmation (boucles ```for``` et ```while```).
+Le prochain DS portera sur les statistiques (spécifiquement, la comparaison de séries statistiques à l'aide de leurs indicateurs), l'ensemble des chapitres de géométrie, dont le dernier sur la colinéarité, et la programmation (boucles ```for``` et ```while```).
 
 ## Naviguer par thématiques
 
